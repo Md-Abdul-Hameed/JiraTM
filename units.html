@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0px;
+        }
+        .box{
+            
+        }
+
+        .one{
+            height: 200px;
+            width: 200px;
+            border: 1px solid red;
+            background-color: lightblue;
+        }
+        .children{
+            height: 50%;
+            width : 50%;
+            background-color: lightcyan;
+        }
+        /* vh-vw % according to screen size*/
+        .two{
+            height:20vh;
+            width: 50vw;
+            border: 1px solid gray;
+            background-color: lightcoral;
+        }
+        /* rem relative unit*/
+        /* 1rem = p size i.e 16px depends*/
+        .three{
+            height: 10rem;
+            widht:20rem;
+            border: 1px solid rgb(12, 216, 12);
+            background-color: lightcyan;
+        }
+
+    </style>
+</head>
+<body>
+<!-- div are block level elements their widht is throughout and height is 1.default->content 2.height provide->div will have given(provided height)-->
+
+    <div class = "box one"></div>
+    <div class="box two">
+        <div class="children">
+
+        </div>
+    </div>
+    <div class="box three"></div>    
+</body>
+</html>
