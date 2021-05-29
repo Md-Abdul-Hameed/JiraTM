@@ -110,6 +110,10 @@ body{
     display:none;
 }
 
+.lock{
+    color: rgb(241, 232, 232);
+}
+
 .desc-box{
     height:100%;
     width: 100%;
